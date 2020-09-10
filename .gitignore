@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/.gitignore
+.idea/goals.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+**/target/*
+*.swp
+*.swo
+**/metals.sbt
+.bloop
+.metals
+**/.#*
