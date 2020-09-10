@@ -8,7 +8,7 @@ object Settings {
     organization := "com.root_corporation",
     version := "0.0.1" + sys.props
       .getOrElse("buildNumber", default = "0-SNAPSHOT"),
-    scalaVersion := "2.12.0",
+    scalaVersion := "2.13.2",
     publishMavenStyle := true,
     publishArtifact in Test := false
   )
